@@ -1,0 +1,92 @@
+*{
+    background: #29292c;
+    font-family: 'roboto', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1440px;
+    background: #29292c;
+}
+._flex{
+    display: flex;
+    justify-content: center;
+}
+.search__container{
+    margin: 50px 0 0 0;
+
+}
+
+.SearchInput{
+    color: white;
+}
+
+.redirect__container{
+    margin: 10px 0 0 0;
+}
+.database__container{
+    margin: 20px 0 0 0;
+}
+
+.table{
+    border: 1px solid white;
+}
+th{
+    color: white;
+}
+td{
+    min-width: 100px;
+    text-align: center;
+    border: 1px solid white;
+    color: White;
+}
+
+.delBtn{
+    background: tomato;
+    transition: all .3s;
+    width: 50%;
+}
+.delBtn:hover{
+    background: red;
+    color: white;
+}
+
+.searchBtn{
+    border: 2px solid green;
+    color: green;
+    transition: all .3s;
+}
+.searchBtn:hover{
+    border: 2px solid white;
+    color: white;
+}
+
+.addBtn{
+    text-decoration: none;
+    color: green;
+    transition: all .3s;
+    border: 1px solid green;
+    padding: 20px 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.addBtn:hover{
+    color: tomato;
+    border: 1px solid tomato;
+}
+.addProduct{
+    margin: 20px 0 0 0;
+}
+
+.backBtn{
+    text-decoration: none;
+    padding: 10px 40px;
+    color: tomato;
+    border: 1px solid tomato;
+    transition: all .3s;
+}
+.backBtn:hover{
+    color: red;
+    border: 1px solid red;
+}
